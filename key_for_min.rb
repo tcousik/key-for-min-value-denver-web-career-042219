@@ -9,3 +9,4 @@ def key_for_min_value(hash)
     end
   end
   return key_for_min_value.key(big_num)
+end
