@@ -3,7 +3,9 @@
 
 def key_for_min_value(hash)
   big_num = 10000
-  hash.collect do |nums|
-    if nums > big_num
-      big_num = nums
+  hash.collect do |key, val|
+    if val > big_num
+      big_num = val
+    end
+  return big_num
       
